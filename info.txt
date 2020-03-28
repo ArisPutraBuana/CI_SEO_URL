@@ -1,0 +1,10 @@
+
+
+# Atur routing untuk permalink url.
+
+Untuk mengatur url agar lebih SEO friendly, 
+
+buka application/config/routes.php
+
+
+baris ke 52 => ( $route['artikel/(:any)'] = 'blog/detail/$1'; )  //route blog/detail/ disingkat menjadi artikel
